@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Press+Start+2P&display=swap");
+* {
+  font-family: "Press Start 2P";
+  color: white;
+}
+
 body {
   height: 100vh;
   overflow: hidden;
@@ -9,9 +15,11 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   background-color: #2d3436;
   padding: 50px;
+  font-size: 50px;
 }
 
 .container {
@@ -53,7 +61,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #636e72;
+  background-color: #2d3436;
   height: 100px;
   gap: 40px;
 }
@@ -61,4 +69,13 @@ body {
 .computer-box-content,
 .player-box-content {
   font-size: 75px;
+}
+
+.rock,
+.paper,
+.scissors {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #2d3436;
 }
