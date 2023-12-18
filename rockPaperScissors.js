@@ -82,7 +82,10 @@ function getPlayerChoice() {
 function gameLogic(playerChoice) {
   const computerSelection = getComputerChoice();
   setRpsValues(computerSelection);
-  playRound(playerChoice, computerSelection);
+
+  for (i = 0; i < 5; i++) {
+    playRound(playerChoice, computerSelection);
+  }
 }
 
 getPlayerChoice();
